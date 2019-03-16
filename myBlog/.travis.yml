@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-env:
- global:
-   - secure:  "Yb5S3MOUKFuEJabKCFTsHJYw5vw9+pnrXBlsFC6tUuHGP1qKPJEOrBJ4A7FKp4wadPz2kMi3vsQTPcfOD8QwBpQffY4GgCFWDm9nE3otWescxoO5NZ3h1nXt4V6XKUF9ODKpo06HBC8dhGYDnGXxTXlu0OQvYMFFc6Bqp2UiJNGzf3vM4WwVcWf6qqXsMGgIolVP/ZYy+06+nKPp8bcr7aca6MSbAxpXwj/SwCQzgFlrYKVp1LET3/6rwN3KOuYPIdbAwEH2ozoZMy4QnEN7H/6FY1A0woopYhXz3w/Dp8zrI2X2J9nvs0jWX2oOaEiN5bFe+HKq+xVdtbbmP20cDNaBFXly79KkurG1jJJTXsjdfprXb3G29iNz/bO+qCoNejFXQpUh6wtbFSAARd7kkuRBViv0UvdkKeqzM7ubkVjrhZTZlQi8coGigjXjWVJzZsvuSETrDPwspKWZBnA9EYeVg47/EYiQm4UyYIOQg0dqCVvNuZp+hDKhKphy0ohBcmQbzidh/++9rxOygbTTGo7E/4HuQRNNjyukkIKuHF/PAAxy3lbNJXjBYgr1VJsAswwE0pVULpUQen/t9NYHv6h/zaBX8C4hHvXZGvmBw8CHB3qsurt1Z1epnbZMeDKtexIgiSwluR9/0YD6oVkcdg2ZTdUeVmg1oUm1qieyoP0="
-
-
-
 language: node_js  #设置语言node_js: stable  #设置相应的版本cache:
     apt: true
     directories:
@@ -28,11 +21,11 @@ language: node_js  #设置语言node_js: stable  #设置相应的版本cache:
     - master  #只监测master分支，master是我的分支的名称，可根据自己情况设置env:
  global:
    - GH_REF: github.com/feng1632009/feng1632009.github.io.git  #设置GH_REF，注意更改yourname# configure notifications (email, IRC, campfire etc)# please update this section to your needs!# https://docs.travis-ci.com/user/notifications/notifications:
+   - secure:  "Yb5S3MOUKFuEJabKCFTsHJYw5vw9+pnrXBlsFC6tUuHGP1qKPJEOrBJ4A7FKp4wadPz2kMi3vsQTPcfOD8QwBpQffY4GgCFWDm9nE3otWescxoO5NZ3h1nXt4V6XKUF9ODKpo06HBC8dhGYDnGXxTXlu0OQvYMFFc6Bqp2UiJNGzf3vM4WwVcWf6qqXsMGgIolVP/ZYy+06+nKPp8bcr7aca6MSbAxpXwj/SwCQzgFlrYKVp1LET3/6rwN3KOuYPIdbAwEH2ozoZMy4QnEN7H/6FY1A0woopYhXz3w/Dp8zrI2X2J9nvs0jWX2oOaEiN5bFe+HKq+xVdtbbmP20cDNaBFXly79KkurG1jJJTXsjdfprXb3G29iNz/bO+qCoNejFXQpUh6wtbFSAARd7kkuRBViv0UvdkKeqzM7ubkVjrhZTZlQi8coGigjXjWVJzZsvuSETrDPwspKWZBnA9EYeVg47/EYiQm4UyYIOQg0dqCVvNuZp+hDKhKphy0ohBcmQbzidh/++9rxOygbTTGo7E/4HuQRNNjyukkIKuHF/PAAxy3lbNJXjBYgr1VJsAswwE0pVULpUQen/t9NYHv6h/zaBX8C4hHvXZGvmBw8CHB3qsurt1Z1epnbZMeDKtexIgiSwluR9/0YD6oVkcdg2ZTdUeVmg1oUm1qieyoP0="
+
   email:
     - 1147727180@qq.com
     - mtianyan@outlook.com
   on_success: change
   on_failure: always
-=======
->>>>>>> 9e67093f60ef7d38d12ae5be16628b72f0420e3e
 
